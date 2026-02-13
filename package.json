@@ -1,0 +1,32 @@
+{
+  "name": "anony-chat",
+  "version": "1.0.0",
+  "description": "Anonymous secure counseling chat platform",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest --forceExit --detectOpenHandles"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IsaacJM03/Anony-Chat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/IsaacJM03/Anony-Chat/issues"
+  },
+  "homepage": "https://github.com/IsaacJM03/Anony-Chat#readme",
+  "dependencies": {
+    "express": "^4.21.2",
+    "helmet": "^8.0.0",
+    "socket.io": "^4.8.1",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "socket.io-client": "^4.8.1"
+  }
+}
